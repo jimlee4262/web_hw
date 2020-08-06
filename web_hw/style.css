@@ -1,12 +1,14 @@
 
 img{
-	width: 100%;;
+	max-width: 100%;;
 }
 
 .container{
 	background-color: #ffffff;
-	border: #000000;
-	margin: 20px;
+	border: #000000 5px solid;
+	margin-bottom: 20px;
 	padding: 30px;
+	margin-top: 20px;
+
 
 }
