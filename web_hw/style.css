@@ -1,47 +1,12 @@
 
 img{
-	width: 100%;
-	height: 100%;
+	width: 100%;;
 }
 
-/* Selecting elements by class */
-.container {
-	width: 1024px;
-	margin: 0 auto;
-  background-color: white;
-  }
-  
-  #figure {
-	position: relative;
-  }
-  
-  .navbar-brand{
-    background-color: #48D1CC;
-    color: white;
-    padding: 20px;
-  }
+.container{
+	background-color: #ffffff;
+	border: #000000;
+	margin: 20px;
+	padding: 30px;
 
-  .nav {
-    margin-bottom: 20px;
-    background-color: darkslategray;
-  }
-
-  @media (max-width: 800px) {
-    h1 
-    {
-      font-size: 30px;
-    }
-    p 
-    {
-      margin-bottom: 25px;
-    }
-  }
-
-  h1{
-    color:#48D1CC;
-    font-weight: bold;
-  }
-  
-  navbar navbar-expand-md bg-light navbar-light{
-    background-color: #48D1CC; 
-  }
+}

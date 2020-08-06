@@ -3,16 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <title>Latitude</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"></script>
 </head>
 <body>
  <!-- start of navbar -->
  <nav class="navbar navbar-expand-md bg-light navbar-light">
-    <a class="navbar-brand" href="index.html" style="color:white"> Latitude</a>
+    <a class="navbar-brand" href="index.html"> Latitude</a>
     <!-- Toggler -->
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#landingnavbar" aria-controls="landingnavbar" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -44,50 +53,41 @@
 </nav>
 
     <!-- First part -->
-    <div class="container-fluid">
+    <div class="container">
         <div class="row">
-            <div class="col-12 col-md-5">
-            <!-- <div class="col-md-7 padbox white"> -->
+            <div class="col-12 col-md-7">
                 <h1>Summary: Latitude vs. X</h1>
                 <hr>
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-6">
-                            <img src="Resources\assets\images\Fig1.png" alt="Latitude vs. Max Temperature">
-                        </div>
-                    <div class="col-6">
+                    <img src="Resources\assets\images\Fig1.png" alt="Latitude vs. Max Temperature" width="300px" align="left" class="cetervis">
                         <p>The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.
                         </p>
                         <p>
                             After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked at included: ttemperature, cloudiness, wind speed, and humidity. This site provides the source data and visualization created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.
                         </p>
-                    </div>
-                    
-                </div>
             </div>
-        </div>
         <!-- Visualization -->
-        <div class="col-12 col-md-5">
+            <div class="col-12 col-md-5">
+
             <h1>Visualizations</h1>
             <hr>
             <div class="container">
                 <div class="row">
-                    <div class="col-md-6 col-sm-3">
+                    <div class="col-3 col-md-6">
                         <a href="temperature.html"> 
                             <img src="Resources\assets\images\Fig1.png" class="img-fluid">
                         </a>
                     </div>
-                    <div class="col-md-6 col-sm-3">
+                    <div class="col-3 col-md-6">
                         <a href="humidity.html"> 
                             <img src="Resources\assets\images\Fig2.png" class="img-fluid">
                         </a>
                     </div>
-                    <div class="col-md-6 col-sm-3">
+                    <div class="col-3 col-md-6">
                         <a href="cloudiness.html"> 
                             <img src="Resources\assets\images\Fig3.png" class="img-fluid">
                         </a>
                     </div>
-                    <div class="col-md-6 col-sm-3">
+                    <div class="col-3 col-md-6">
                         <a href="windspeed.html"> 
                             <img src="Resources\assets\images\Fig4.png" class="img-fluid">
                         </a>
